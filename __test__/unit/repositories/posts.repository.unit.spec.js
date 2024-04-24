@@ -1,5 +1,3 @@
-// **tests**/unit/posts.repository.unit.spec.js
-
 import { jest } from '@jest/globals';
 import { PostsRepository } from '../../../src/repositories/posts.repository';
 
