@@ -209,7 +209,7 @@ describe('Scoped / Nested block', () => {
 
 또한 **Mock 객체**의 특정 메서드가 **몇번 호출**되었는지, **어떤 값을 전달**받았는지, **전달받은 데이터의 형식**은 내가 생각한것이 맞는지 등 다양한 조건을 검사할 수 있습니다. 
 
-![Mocking된 경우 외부 환경을 배제하고 독립적인 환경에서 테스트를 진행할 수 있습니다.](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/2f2d4dba-1f1f-41a3-805f-82d4df29f10c/Mocking_Object.png)
+Mocking된 경우 외부 환경을 배제하고 독립적인 환경에서 테스트를 진행할 수 있습니다.
 
 Mocking된 경우 외부 환경을 배제하고 독립적인 환경에서 테스트를 진행할 수 있습니다.
 
@@ -218,5 +218,5 @@ Mocking된 경우 외부 환경을 배제하고 독립적인 환경에서 테스
 - **`.toHaveBeenCalledTimes(number)`[](https://jestjs.io/docs/expect#tohavebeencalledtimesnumber)**
     - **Mock**이 몇번 호출되었는지 검증합니다.
 - **`.toHaveBeenCalledWith(arg1, arg2, ...)`[](https://jestjs.io/docs/expect#tohavebeencalledwitharg1-arg2-)**
-    - 어떤 인자를 이용해 **Mock**이 호출되었는지 검사합니다.
+    - 어떤 인자를 이용해 **Mock**이 호출되었는지 검사합니다.     
 [Mock Functions](https://jestjs.io/docs/mock-function-api)
