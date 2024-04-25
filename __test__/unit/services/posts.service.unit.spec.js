@@ -1,5 +1,3 @@
-// __tests__/unit/posts.service.unit.spec.js
-
 import { jest } from '@jest/globals';
 import { PostsService } from '../../../src/services/posts.service.js';
 
