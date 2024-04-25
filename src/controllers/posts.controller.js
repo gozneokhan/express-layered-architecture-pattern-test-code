@@ -34,6 +34,10 @@ export class PostsController {
         try {
             const { nickname, password, title, content } = req.body;
 
+            if (!nickname || !password || !title || !content) {
+                throw new Error('InvalidParamsError');
+            }
+
             // 서비스 계층에 구현된 createPost 로직을 실행합니다.
             const createdPost = await this.postsService.createPost(nickname, password, title, content);
 
