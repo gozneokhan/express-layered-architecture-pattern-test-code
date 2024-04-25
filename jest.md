@@ -7,9 +7,8 @@ yarn add -D jest cross-env @jest/globals
 # Jest Configs 설정하기
 Jest 설정하기: jest.config.js
 * 특정 경로의 테스트 파일을 무시하도록 설정하고, 모든 Test Case (expect)의 결과값 출력을 설정하였습니다.
-  ```
+```
   // jest.config.js
-
 export default {
   // 해당 패턴에 일치하는 경로가 존재할 경우 테스트를 하지 않고 넘어갑니다.
   testPathIgnorePatterns: ['/node_modules/'],
@@ -217,7 +216,7 @@ describe('Scoped / Nested block', () => {
 
 **Repository**가 사용하는 **DB를 Mocking**하게 된다면, **실제 DB에 접근하지 않고도** 특정한 값이 입력되었을 때 어떤 결과가 나오는지 임의로 설정하여 **DB에 접근했을 때와 동일한 상황을 예상**하여 코드를 작성할 수 있게 됩니다. 
 
-또한 **Mock 객체**의 특정 메서드가 **몇번 호출**되었는지, **어떤 값을 전달**받았는지, **전달받은 데이터의 형식**은 내가 생각한것이 맞는지 등 다양한 조건을 검사할 수 있습니다. 😊
+또한 **Mock 객체**의 특정 메서드가 **몇번 호출**되었는지, **어떤 값을 전달**받았는지, **전달받은 데이터의 형식**은 내가 생각한것이 맞는지 등 다양한 조건을 검사할 수 있습니다. 
 
 ![Mocking된 경우 외부 환경을 배제하고 독립적인 환경에서 테스트를 진행할 수 있습니다.](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/2f2d4dba-1f1f-41a3-805f-82d4df29f10c/Mocking_Object.png)
 
