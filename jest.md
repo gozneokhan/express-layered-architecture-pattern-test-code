@@ -72,7 +72,7 @@ cross-env는 이러한 OS 종속적인 부분을 일관된 문법으로 사용�
             - 테스트 파일의 `test()`를 기준으로 결과값이 출력됩니다.
             - 테스트 결과를 명확하게 볼 수 있어 **디버깅할 때 유용**하게 사용할 수 있습니다.
 
-[Jest CLI Options](https://jestjs.io/docs/cli
+[Jest CLI Options](https://jestjs.io/docs/cli)
 
 # 자주 사용하는 Jest 문법 정리
 - **expect 결과값 검증하기**
@@ -218,5 +218,6 @@ Mocking된 경우 외부 환경을 배제하고 독립적인 환경에서 테스
 - **`.toHaveBeenCalledTimes(number)`[](https://jestjs.io/docs/expect#tohavebeencalledtimesnumber)**
     - **Mock**이 몇번 호출되었는지 검증합니다.
 - **`.toHaveBeenCalledWith(arg1, arg2, ...)`[](https://jestjs.io/docs/expect#tohavebeencalledwitharg1-arg2-)**
-    - 어떤 인자를 이용해 **Mock**이 호출되었는지 검사합니다.     
+    - 어떤 인자를 이용해 **Mock**이 호출되었는지 검사합니다.
+      
 [Mock Functions](https://jestjs.io/docs/mock-function-api)
